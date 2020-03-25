@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>{{ title }} Page<title>
+    </head>
+    <body>
+        <h1>Hello, {{ data.user }}</h1>
+        <p>Tu es connecté à la machine {{ data.machine }}</p>
+        {% for elem in data.dist %}
+            <p>{{ elem }}</p>
+    </body>
+</html>

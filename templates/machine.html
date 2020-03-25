@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>liste de machine<title>
+    </head>
+    <body>
+        <h1>machine : </h1>
+        {% for row in liste %}
+            <p style="padding-left:20px">{{ row }}</p>
+            <a href="{{ row }}">{{ row }}</a>
+        {% endfor %}
+    </body>
+</html>
